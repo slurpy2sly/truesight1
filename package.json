@@ -1,0 +1,23 @@
+{
+  "name": "truesight-backend",
+  "version": "1.0.0",
+  "description": "Backend API for TrueSight AI Image Authenticity Detector",
+  "main": "backend.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend.js",
+    "dev": "node backend.js",
+    "test": "node test-connection.js",
+    "diagnose": "node start-backend.js",
+    "minimal": "node minimal-backend.js"
+  },
+  "keywords": ["ai", "image", "detection", "claude", "api"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "node-fetch": "^3.3.2"
+  }
+}
